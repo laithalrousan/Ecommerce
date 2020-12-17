@@ -5,22 +5,53 @@ body {
 
 .firstdiv{
 	 display:flex;
-	 
+	 flex-wrap:  wrap;
 	 border: 1px solid #D1D3D6;
      max-width:1090px;
-	height:50px;	 
+	max-height:910px;	 
 	 margin-left:255px;
 	 margin-right:auto;
 	 margin-bottom:10px;
 	 background-color:white;
 	 position: relative;
 	 overflow:hidden;
-  
+	 align-items:center;
+     
+}
+
+.firstdiv_div1{
+	max-height:70px;
+	width:140px;
+	flex:  1 1 20%;
+	align-self:center;
+	
+	position:relative;
+}
+
+.firstdiv_div2{
+	flex: 1 1 60%;
+	max-height:70px;
+	position:relative;
+	max-width:500px;
+    
+	
+}
+
+
+.firstdiv_div3{
+   
+	position:relative;
+	max-height:70px;
+	width:400px;
+	flex:1 1 20%;
+	
+	text-align: right;
 }
 
 .paybutton1{
-	margin-top:10px;
-	 margin-left:90%;
+	position:relative; display: inline-block;
+	
+	 
 	 float:right;
 	background-color:#2797EA;
 	color:white;
@@ -41,20 +72,14 @@ body {
   justify-content:flex-end;
 }
 .starter{
-	justify-content:flex-start;
-	align-self: flex-start;
-	margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 4%;
-	-ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	
+	
 	color: #2797EA;
 	  font-size:23px;
 	 font-family: 'Comic Sans', monospace;
 	 font-weight:bold;
 	 width:60px;
-	 
+	 height:10px;
 
 }
 .Seconddiv2{
