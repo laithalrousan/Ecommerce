@@ -8,7 +8,7 @@ body {
 	 display:flex;
 	 flex-wrap: wrap;
 	 border: 1px solid #D1D3D6;
-     
+     max-width:1684px;
 	max-height:1000px;	 
 	padding:7px;
 	 
@@ -78,7 +78,7 @@ body {
 	display: flex;
   flex-direction: row;
 	 border: 1px solid #D1D3D6;
-     max-width:1090px;
+     max-width:1700px;
      height:40px;	 
 	 
 	 background-color:white;
@@ -137,10 +137,10 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap:8px;
   
-
+  max-width:1700px;
    background-color:#F0F0F0;
  
   
@@ -246,7 +246,7 @@ float:left;
     flex-wrap: wrap;
 	
 	border: 1px solid #D1D3D6;
-	max-width:1090px;
+	max-width:1700px;
 	height:40px;
 	overflow:hidden;
 	align-items:center;
@@ -258,7 +258,7 @@ float:left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:none;
 	float:left;
-	width:500px;
+	
 	max-height:20px;
 	
 	
@@ -287,7 +287,7 @@ float:left;
 	
 	
 	border: 1px solid #D1D3D6;
-	max-width:1090px;
+	max-width:1700px;
 	background-color:white;
 	padding:9px;
 	
@@ -456,7 +456,7 @@ align-items:center;
   flex-wrap: wrap;
 	
 	border: 1px solid #D1D3D6;
-	max-width:1090px;
+	max-width:1700px;
 	max-height:900px;
 	background-color:white;
 	
