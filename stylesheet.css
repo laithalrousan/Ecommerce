@@ -1,7 +1,7 @@
 body {
   background-color: #F0F0F0;
   font-family: 'Open Sans', sans-serif;
-  max-width:1200;
+ 
 }
 
 .firstdiv{
@@ -88,7 +88,7 @@ body {
 }
 .dropdown{
 	color:black;
-	width:130px;
+	
     height:30px;
 	font-size:24px;
 	border:none;	
@@ -155,7 +155,7 @@ body {
   
   font-size: 17px;
   
-padding:7px;
+ padding:7px;
   
   color:black;
 }
@@ -457,7 +457,7 @@ align-items:center;
 	
 	border: 1px solid #D1D3D6;
 	max-width:1090px;
-	max-height:910px;
+	max-height:900px;
 	background-color:white;
 	
 	
