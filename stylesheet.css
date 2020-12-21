@@ -472,9 +472,12 @@ align-items:center;
     flex-direction: row;
 	
   }
-  .firstdiv_div1 { order: 1; }
-    .firstdiv_div3 { order: 2;  }
-    .firstdiv_div2 { order: 3;	
+  .firstdiv_div1 { order: 1;
+flex:  1 1 50%;  }
+    .firstdiv_div3 { order: 2;
+flex:  1 1 50%;	}
+    .firstdiv_div2 { order: 3;
+flex:  1 1 100%;	
 	
 	}
 }
