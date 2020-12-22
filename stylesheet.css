@@ -3,127 +3,120 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.div1 {
+.starter_kit {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #d1d3d6;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #d1d3d6;
-  max-width: 1684px;
+  margin: auto;
   max-height: 1000px;
-  padding: 7px;
-
-  background-color: white;
-  position: relative;
+  max-width: 1684px;
   overflow: hidden;
-  align-items: center;
+  padding: 7px;
+  position: relative;
 }
 
-.div1_1 {
-  height: 50px;
+.starter_kit_div1 {
 
   flex: 1 1 20%;
+  height: 50px;
   justify-content: center;
 }
 
-.div1_2 {
+.starter_kit_div2 {
+
+  align-self: center;
+  border: 1px solid #d1d3d6;
   flex: 1 1 40%;
   height: 30px;
-
-  border: 1px solid #d1d3d6;
-  align-self: center;
   justify-self: center;
 }
 
-.div1_3 {
-  max-height: 70px;
-
+.starter_kit_div3 {
   flex: 1 1 20%;
-
+  max-height: 70px;
   text-align: right;
 }
 
-.starter_kit {
-  font-family: Times New Roman, Times, serif;
+.starter_kit_header {
   color: #2797ea;
+  font-family: Times New Roman, Times, serif;
   font-weight: bold;
 }
-.search_icon {
-  height: 30px;
-  font-size: 25px;
-  color: #2797ea;
-  float: right;
-}
 
-.pay_button1 {
-  position: relative;
-  float: right;
+.starter_kit_btn {
   background-color: #2797ea;
-  color: white;
   border: 1px solid #d1d3d6;
-  height: 33px;
-  width: 100px;
+  color: white;
+  float: right;
   font-size: 13px;
+  height: 33px;
+  position: relative;
+  width: 100px;
 }
 .center {
+  -ms-transform: translate(-50%, -50%);
+  align-self: flex-end;
+  justify-content: flex-end;
+  left: 50%;
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  align-self: flex-end;
-  justify-content: flex-end;
 }
 
-.div2 {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #d1d3d6;
-  max-width: 1700px;
-  height: 40px;
+.category {
+
 
   background-color: white;
-
+  border: 1px solid #d1d3d6;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin: auto;
+  max-width: 1700px;
   overflow: hidden;
 }
 .dropdown {
-  color: black;
 
-  height: 30px;
-  font-size: 24px;
-  border: none;
-  background-color: white;
 
   align-self: center;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 24px;
+  height: 30px;
   position: relative;
 }
 
 .category_price {
-  font-family: Times New Roman, Times, serif;
   color: #2797ea;
+  font-family: Times New Roman, Times, serif;
 }
 
 .category_reviews {
-  font-family: Times New Roman, Times, serif;
 
   color: #bebfc1;
+  font-family: Times New Roman, Times, serif;
   font-size: 22px;
 }
 .num_of_category {
-  border: 2px solid #d1d3d6;
   background-color: white;
-  font-size: 18px;
+  border: 2px solid #d1d3d6;
   color: #aeb6c2;
   float: left;
+  font-size: 18px;
   height: 20px;
   padding: 20px;
 }
 
-.Img1 {
-  border-style: 1px solid #d1d3d6;
+.category_Img1 {
 
-  height: 190px;
 
   background-color: #f0f0f0;
+  border-style: 1px solid #d1d3d6;
+  height: 190px;
   position: relative;
 }
 
@@ -136,214 +129,223 @@ body {
   font-size: 27px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 8px;
+.categories_2 {
+  align-items: center;
+  margin: auto;
+  max-height: 1000px;
+  max-width: 1684px;
+  position: relative;
+}
 
-  max-width: 1700px;
+.grid-container {
   background-color: #f0f0f0;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin: auto;
+  max-width: 1700px;
 }
 .grid-item {
   background-color: white;
   border: 1px solid #d1d3d6;
-
-  font-size: 17px;
-
-  padding: 7px;
-
   color: black;
+  font-size: 17px;
+  padding: 7px;
+}
+.related_products {
+  align-items: center;
+  margin: auto;
+  max-width: 1684px;
+  position: relative;
 }
 
 .grid-item2 {
   background-color: white;
   border: 1px solid #d1d3d6;
-
+  color: black;
   font-size: 20px;
   padding: 11px;
-
-  color: black;
 }
 
 .grid-txt {
-  font-size: 15px;
   color: #abb2b9;
+  font-size: 15px;
   text-align: center;
 }
 
 .la {
-  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   font-weight: none;
 }
 
-.reviews {
-  font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-  float: left;
+.Testmotionals_reviews {
   color: #bebfc1;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
 }
-.add_to_chart {
-  height: 65px;
-  float: right;
+.category_btn {
   background-color: #2797ea;
-  color: white;
   border: 1px solid #d1d3d6;
+  color: white;
+  float: right;
+  height: 65px;
   padding: 20px;
 }
 
-.div5 {
-  position: relative;
+.love_product {
+  align-items: center;
+  border: 1px solid #d1d3d6;
   display: flex;
   flex-wrap: wrap;
-
-  border: 1px solid #d1d3d6;
-  max-width: 1700px;
   height: 40px;
+  margin: auto;
+  max-width: 1684px;
   overflow: hidden;
-  align-items: center;
+  position: relative;
 }
-.div5_p {
+.love_product_p {
   flex: 1 1 400px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: none;
   float: left;
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: none;
   max-height: 20px;
 }
-
-.div5_show_more {
-  flex: 1 1 200px;
-  color: #2797ea;
-  justify-self: flex-end;
-  font-size: 15px;
+.love_product_span {
+  color: #bebfc1;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
   font-weight: none;
+}
+.love_product__show_more {
+  color: #2797ea;
+  flex: 1 1 200px;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: none;
+  justify-self: flex-end;
   max-height: 20px;
   max-width: 110px;
-  float: right;
 }
 
-.div6 {
-  border: 1px solid #d1d3d6;
-  max-width: 1700px;
+.Testmotionals {
   background-color: white;
+  border: 1px solid #d1d3d6;
+  margin: auto;
+  max-width: 1670px;
   padding: 9px;
 }
 
-.div6_header {
+.Testmotionals_header {
+  color: #2797ea;
   float: left;
   font-size: 20px;
-
-  color: #2797ea;
 }
 
-.div6_p1 {
+.Testmotionals_p1 {
   flex: 0 50%;
-
   float: left;
   font-size: 25px;
 }
 
-.div6_p2 {
+.Testmotionals_p2 {
   font-size: 20px;
 }
-.div6_p3 {
+.Testmotionals_p3 {
   font-size: 15px;
 }
 
-.div6_1 {
+.Testmotionals_div1 {
   display: flex;
   flex-wrap: wrap;
   padding: 9px;
 }
 
-.div6_1_1 {
+.Testmotionals_div1_div1 {
   flex: 1 1 50%;
 }
 
-.div6_1_2 {
+.Testmotionals_div1_div2 {
   flex: 1 1 50%;
 }
 .checked {
-  margin-top: 6px;
   color: orange;
-  padding-left: 4px;
   float: left;
+  margin-top: 6px;
   max-width: 30px;
+  padding-left: 4px;
 }
 
-.div6_2 {
+.Testmotionals_div2 {
   height: 70px;
   align-items: center;
 }
 
-.div6_btn {
-  height: 40px;
-
-  font-weight: bold;
-
-  float: right;
+.Testmotionals_btn {
   background-color: #d5e6f5;
-  color: #2797ea;
-  font-size: 16px;
   border: 1px solid #d1d3d6;
+  color: #2797ea;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
 }
 
-.div7_input {
-  float: left;
+.subscribe_input {
 
+  float: left;
   height: 34px;
 }
 
-.div7_btn {
-  height: 40px;
-  float: lefts;
+.subscribe_btn {
   background-color: #2797ea;
-  color: white;
   border: 1px solid #d1d3d6;
+  color: white;
+  float: lefts;
+  height: 40px;
 }
-.div7_p1 {
+.subscribe_p1 {
   float: left;
   font-size: 25px;
 
   color: black;
 }
 
-.div7_p2 {
+.subscribe_p2 {
+  color: black;
   font-size: 15px;
   height: 10px;
-  color: black;
 }
-.div7_1 {
-  flex: 0 50%;
-  max-height: 400px;
+.subscribe_div1 {
 
+  flex: 0 50%;
   float: left;
+  max-height: 400px;
 }
 
-.div7_2 {
+.subscribe_div2 {
   flex: 0 50%;
-
   max-height: 300px;
 }
-.div7 {
-  position: relative;
+.subscribe {
+  background-color: white;
+  border: 1px solid #d1d3d6;
   display: flex;
   flex-wrap: wrap;
-
-  border: 1px solid #d1d3d6;
-  max-width: 1700px;
+  margin: auto;
   max-height: 900px;
-  background-color: white;
+  max-width: 1684px;
+  position: relative;
 }
-.div7_p3 {
+.subscribe_p3 {
+  color: #bebfc1;
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   margin-left: 76px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #bebfc1;
 }
 
 @media (max-width: 1200px) {
