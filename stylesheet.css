@@ -35,6 +35,15 @@ body {
   justify-self: center;
 }
 
+.starter_kit_div2_input
+{
+  height: 37px; 
+  float: left;
+   border: none;
+   width: 750px;
+
+}
+
 .starter_kit_div3 {
   flex: 1 1 20%;
   max-height: 80px;
@@ -64,10 +73,11 @@ padding: 4px;
   border: none;
   color: white;
   float: right;
-  font-size: 13px;
+  font-size: 18px;
   height: 38px;
   position: relative;
   width: 100px;
+  padding: 4px 0px 0px 0px;
 }
 .center {
   -ms-transform: translate(-50%, -50%);
@@ -388,6 +398,9 @@ text-align: center;
 @media (max-width: 1200px) {
   .body {
     max-width: 440px;
+  }
+  .starter_kit_div2_input{
+    width: 350px;
   }
   .starter_kit {
     flex-direction: row;
