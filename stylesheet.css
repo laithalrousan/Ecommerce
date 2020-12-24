@@ -41,6 +41,15 @@ body {
   float: left;
    border: none;
    width: 550px;
+}
+
+.starter_kit_div2_icon{
+
+  padding-top: 7px;
+  height: 34px;
+  font-size: 25px;
+  color: #2797ea;
+  float: right;
 
 }
 
@@ -48,8 +57,7 @@ body {
   flex: 1 1 20%;
   max-height: 80px;
   text-align: right;
-   
-
+  display: inline-flex;   
 }
 
 .starter_kit_header {
@@ -59,12 +67,34 @@ body {
   font-size: 35px;
   
 }
+
+.starter_kit_div3_person_icon{
+  flex: 50%;
+  font-size: 40px;
+  color:#2797ea;
+  height: 40px;
+  position: relative;
+    padding: 7px 6px 0px 0px;
+    
+
+}
+.starter_kit_div3_shopping_bag
+{
+  font-size: 28px;
+  color: white;
+  height: 40px;
+  position: relative;
+  float: left;  
+  padding: 4px 0px 0px 0px;
+}
 .starter_kit_div3_div
 {
+flex: 50%;
 background-color:#2797ea ;
 max-width:130px ;
 float: right;
-padding: 4px;
+padding: 5px;
+
 
 }
 
@@ -131,7 +161,17 @@ padding: 4px;
  
 }
 
+.bookmark{
+  height: 70px;
+  font-size: 55px;
+  color: #2797ea;
+  float: left;
+  text-align: center;
+  padding: 0px 0px 0px 70px;
 
+
+  
+}
 .category_Img1 {
 
 
